@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe's Hotdog Stand</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="order_v3.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Joe's Hotdog Stand!</h1>
+            <p>Order the most delicious hotdogs, fries, and drinks in Medford!</p>
+        </header>
+        <div id="homePage">
+            <button id="startOrderButton" class="button">Start Your Order</button>
+            <p id="orderCancelledMessage" class="cancel-message"></p>
+        </div>
+        <div id="orderDetails" class="hidden">
+            <button id="cancelOrderButton" class="button cancel-button">Cancel Order</button>
+            <div id="orderSummary"></div>
+        </div>
+    </div>
+</body>
+</html>
